@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Contadito.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Contadito.Api.Controllers.AuthController.RegisterTenant(Contadito.Api.Domain.DTOs.RegisterTenantRequest)">
+            <summary>
+            Registra un nuevo tenant con su usuario propietario.
+            </summary>
+        </member>
+        <member name="M:Contadito.Api.Controllers.AuthController.Login(Contadito.Api.Domain.DTOs.LoginRequest)">
+            <summary>
+            Inicia sesión con email y contraseña.
+            </summary>
+        </member>
+        <member name="M:Contadito.Api.Controllers.AuthController.GenerateToken(Contadito.Api.Domain.Entities.User)">
+            <summary>
+            Genera un JWT para el usuario autenticado.
+            </summary>
+        </member>
+    </members>
+</doc>
